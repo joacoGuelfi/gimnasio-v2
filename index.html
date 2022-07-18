@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <h1>Gimnasio</h1>
+    <form id="form">
+        <h2>Añadir personas</h2>
+        <label for="idNombre">Nombre: </label>
+        <input id="idNombre" type="text">
+
+        <label for="idApellido">Apellido: </label>
+        <input id="idApellido" type="text">
+
+        <label for="idDocumento">Documento: </label>
+        <input id="idDocumento" type="number">
+
+        <label for="idEdad">Edad: </label>
+        <input id="idEdad" type="number">
+
+        <button type="submit" id="btnForm">Agregar</button>
+    </form>
+
+    <div>
+        <h2>Quitar personas</h2>
+        <button id="btnQuitar">Quitar por documento</button>
+        <button>Quitar por nombre y apellido</button>
+        <button id="btnMostrar">Mostrar personas</button>
+        <button>Ordenar personas</button>
+
+        <div id="container">
+        </div>
+
+    </div>
+
+    <script src="javaScript/script.js"></script>
+</body>
+
+</html>

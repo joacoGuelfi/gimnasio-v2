@@ -1,0 +1,11 @@
+.cards{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+.cards .nombre{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cards p{
+    font-family: 'Courier New', Courier, monospace;
+}
